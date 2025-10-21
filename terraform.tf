@@ -3,6 +3,8 @@
 
 terraform {
   cloud {
+
+    organization = "serdar-devops-test"
     workspaces {
       name = "learn-terraform-module-object-attributes"
     }
